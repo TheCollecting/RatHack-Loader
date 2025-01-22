@@ -1,91 +1,127 @@
-local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local spiningrat = Instance.new("TextLabel")
-local Frame_2 = Instance.new("Frame")
-local rathack = Instance.new("TextLabel")
-local rodent = Instance.new("TextLabel")
-local loaded = Instance.new("TextLabel")
+-- Generated using RoadToGlory's Converter v1.1
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+local Converted = {
+	["_ScreenGui"] = Instance.new("ScreenGui");
+	["_Frame"] = Instance.new("Frame");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_spining rat"] = Instance.new("TextLabel");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_Frame1"] = Instance.new("Frame");
+	["_UIGradient"] = Instance.new("UIGradient");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_rathack"] = Instance.new("TextLabel");
+	["_rodent"] = Instance.new("TextLabel");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_loaded"] = Instance.new("TextLabel");
+}
 
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
-Frame.BorderColor3 = Color3.new(0.168627, 0.168627, 0.168627)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.436862499, 0, 0.250473022, 0)
-Frame.Size = UDim2.new(0, 300, 0, 300)
+-- Properties:
 
-spiningrat.Name = "spining rat"
-spiningrat.Parent = Frame
-spiningrat.BackgroundColor3 = Color3.new(1, 1, 1)
-spiningrat.BackgroundTransparency = 1
-spiningrat.BorderColor3 = Color3.new(0, 0, 0)
-spiningrat.BorderSizePixel = 0
-spiningrat.Position = UDim2.new(0.330393463, 0, 0.331284285, 0)
-spiningrat.Size = UDim2.new(0, 100, 0, 100)
-spiningrat.Font = Enum.Font.Gotham
-spiningrat.Text = "🐀"
-spiningrat.TextColor3 = Color3.new(1, 1, 1)
-spiningrat.TextScaled = true
-spiningrat.TextSize = 18
-spiningrat.TextWrapped = true
+Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
 
-Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.new(0.623529, 0.45098, 1)
-Frame_2.BorderColor3 = Color3.new(0, 0, 0)
-Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(0, 0, -0.000259704597, 0)
-Frame_2.Size = UDim2.new(0, 300, 0, 2)
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(43.00000123679638, 43.00000123679638, 43.00000123679638)
+Converted["_Frame"].BorderMode = Enum.BorderMode.Middle
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(0.436862499, 0, 0.250473022, 0)
+Converted["_Frame"].Size = UDim2.new(0, 300, 0, 300)
+Converted["_Frame"].Parent = Converted["_ScreenGui"]
 
-rathack.Name = "rathack"
-rathack.Parent = Frame
-rathack.BackgroundColor3 = Color3.new(1, 1, 1)
-rathack.BackgroundTransparency = 1
-rathack.BorderColor3 = Color3.new(0, 0, 0)
-rathack.BorderSizePixel = 0
-rathack.Position = UDim2.new(0.00497497572, 0, 0.00923278835, 0)
-rathack.Size = UDim2.new(0, 199, 0, 14)
-rathack.Font = Enum.Font.Code
-rathack.Text = " rathack"
-rathack.TextColor3 = Color3.new(0.309804, 0.309804, 0.309804)
-rathack.TextSize = 9
-rathack.TextWrapped = true
-rathack.TextXAlignment = Enum.TextXAlignment.Left
+Converted["_spining rat"].Font = Enum.Font.Gotham
+Converted["_spining rat"].Text = "🐀"
+Converted["_spining rat"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_spining rat"].TextScaled = true
+Converted["_spining rat"].TextSize = 18
+Converted["_spining rat"].TextWrapped = true
+Converted["_spining rat"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_spining rat"].BackgroundTransparency = 1
+Converted["_spining rat"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_spining rat"].BorderSizePixel = 0
+Converted["_spining rat"].Position = UDim2.new(0.330393463, 0, 0.331284285, 0)
+Converted["_spining rat"].Size = UDim2.new(0, 100, 0, 100)
+Converted["_spining rat"].Name = "spining rat"
+Converted["_spining rat"].Parent = Converted["_Frame"]
 
-rodent.Name = "rodent"
-rodent.Parent = Frame
-rodent.BackgroundColor3 = Color3.new(1, 1, 1)
-rodent.BackgroundTransparency = 1
-rodent.BorderColor3 = Color3.new(0, 0, 0)
-rodent.BorderSizePixel = 0
-rodent.Position = UDim2.new(0.334974974, 0, 0.00923278835, 0)
-rodent.Size = UDim2.new(0, 199, 0, 14)
-rodent.Font = Enum.Font.Code
-rodent.Text = "made by rats for rats "
-rodent.TextColor3 = Color3.new(0.309804, 0.309804, 0.309804)
-rodent.TextSize = 9
-rodent.TextWrapped = true
-rodent.TextXAlignment = Enum.TextXAlignment.Right
+Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(159.0000057220459, 115.00000074505806, 255)
+Converted["_Frame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame1"].BorderSizePixel = 0
+Converted["_Frame1"].Position = UDim2.new(0, 0, -0.000259704597, 0)
+Converted["_Frame1"].Size = UDim2.new(0, 300, 0, 2)
+Converted["_Frame1"].Parent = Converted["_Frame"]
 
-loaded.Name = "loaded"
-loaded.Parent = Frame
-loaded.BackgroundColor3 = Color3.new(1, 1, 1)
-loaded.BackgroundTransparency = 1
-loaded.BorderColor3 = Color3.new(0, 0, 0)
-loaded.BorderSizePixel = 0
-loaded.Position = UDim2.new(0.166666672, 0, 0.416666657, 0)
-loaded.Size = UDim2.new(0, 200, 0, 50)
-loaded.Visible = false
-loaded.Font = Enum.Font.Code
-loaded.Text = "fard"
-loaded.TextColor3 = Color3.new(0.498039, 0.498039, 0.498039)
-loaded.TextSize = 14
+Converted["_UIGradient"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(251.00000023841858, 0, 191.00000381469727)),
+	ColorSequenceKeypoint.new(0.25, Color3.fromRGB(60.00000022351742, 24.000000469386578, 113.00000086426735)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(76.0000030696392, 189.00000393390656, 199.0000033378601)),
+	ColorSequenceKeypoint.new(0.75, Color3.fromRGB(84.00000259280205, 33.00000183284283, 185.00000417232513)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 137.00000703334808, 164.00000542402267))
+}
+Converted["_UIGradient"].Parent = Converted["_Frame1"]
 
--- Scripts:
+Converted["_rathack"].Font = Enum.Font.Code
+Converted["_rathack"].Text = " rathack"
+Converted["_rathack"].TextColor3 = Color3.fromRGB(79.00000289082527, 79.00000289082527, 79.00000289082527)
+Converted["_rathack"].TextSize = 9
+Converted["_rathack"].TextWrapped = true
+Converted["_rathack"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_rathack"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_rathack"].BackgroundTransparency = 1
+Converted["_rathack"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_rathack"].BorderSizePixel = 0
+Converted["_rathack"].Position = UDim2.new(0.00497497572, 0, 0.00923278835, 0)
+Converted["_rathack"].Size = UDim2.new(0, 199, 0, 14)
+Converted["_rathack"].Name = "rathack"
+Converted["_rathack"].Parent = Converted["_Frame"]
 
-local function PJXCQUV_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+Converted["_rodent"].Font = Enum.Font.Code
+Converted["_rodent"].Text = "made by rats for rats "
+Converted["_rodent"].TextColor3 = Color3.fromRGB(79.00000289082527, 79.00000289082527, 79.00000289082527)
+Converted["_rodent"].TextSize = 9
+Converted["_rodent"].TextWrapped = true
+Converted["_rodent"].TextXAlignment = Enum.TextXAlignment.Right
+Converted["_rodent"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_rodent"].BackgroundTransparency = 1
+Converted["_rodent"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_rodent"].BorderSizePixel = 0
+Converted["_rodent"].Position = UDim2.new(0.334974974, 0, 0.00923278835, 0)
+Converted["_rodent"].Size = UDim2.new(0, 199, 0, 14)
+Converted["_rodent"].Name = "rodent"
+Converted["_rodent"].Parent = Converted["_Frame"]
+
+Converted["_loaded"].Font = Enum.Font.Code
+Converted["_loaded"].Text = "fard"
+Converted["_loaded"].TextColor3 = Color3.fromRGB(127.00000762939453, 127.00000762939453, 127.00000762939453)
+Converted["_loaded"].TextSize = 14
+Converted["_loaded"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_loaded"].BackgroundTransparency = 1
+Converted["_loaded"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_loaded"].BorderSizePixel = 0
+Converted["_loaded"].Position = UDim2.new(0.166666672, 0, 0.416666657, 0)
+Converted["_loaded"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_loaded"].Visible = false
+Converted["_loaded"].Name = "loaded"
+Converted["_loaded"].Parent = Converted["_Frame"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function AKWPRQK_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Frame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local TweenService = game:GetService("TweenService")
 	local object = script.Parent  -- The GUI element you want to tween
@@ -116,9 +152,18 @@ local function PJXCQUV_fake_script() -- Frame.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(PJXCQUV_fake_script)()
-local function EMGU_fake_script() -- spiningrat.LocalScript 
-	local script = Instance.new('LocalScript', spiningrat)
+local function YXBSDQF_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.spining rat.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_spining rat"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local textLabel = script.Parent
 	
@@ -172,10 +217,46 @@ local function EMGU_fake_script() -- spiningrat.LocalScript
 	
 	
 end
-coroutine.wrap(EMGU_fake_script)()
-local function VIGRH_fake_script() -- rodent.LocalScript 
-	local script = Instance.new('LocalScript', rodent)
+local function XPKWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Frame.UIGradient.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_UIGradient"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UIGradient = script.Parent
+	local offset = 0
+	while true do
+		UIGradient.Offset = Vector2.new(offset, 0)
+		offset = offset + 0.01
+		if offset > 1 then offset = -1 end
+		task.wait(0.01)
+	end
+	
+end
+local function GIQRY_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.rodent.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_rodent"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(VIGRH_fake_script)()
+
+coroutine.wrap(AKWPRQK_fake_script)()
+coroutine.wrap(YXBSDQF_fake_script)()
+coroutine.wrap(XPKWJ_fake_script)()
+coroutine.wrap(GIQRY_fake_script)()
