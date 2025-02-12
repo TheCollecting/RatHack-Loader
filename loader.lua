@@ -193,7 +193,7 @@ local function YXBSDQF_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 	
 	local gameList = {
 		{Name = "Project Delta", ID = 7336302630, LoadString = "https://raw.githubusercontent.com/TheCollecting/RatHack-pd/refs/heads/main/script.lua"},
-		{Name = "Project Delta", ID = 2862098693, LoadString = "https://raw.githubusercontent.com/TheCollecting/RatHack-pd/refs/heads/main/script.lua"},
+		{Name = "Project Delta", ID = 7353845952, LoadString = "https://raw.githubusercontent.com/TheCollecting/RatHack-pd/refs/heads/main/script.lua"},
 		{Name = "Arsenal", ID = 286090429, LoadString = "https://raw.githubusercontent.com/TheCollecting/Rathack-Arsenal/refs/heads/main/ArsenalV2.lua"},
 		{Name = "Trident Survial", ID = 13253735473, LoadString = "https://raw.githubusercontent.com/TheCollecting/RatHackTrident/refs/heads/main/RatHack.lua"},
 	}
